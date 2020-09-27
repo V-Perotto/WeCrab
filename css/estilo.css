@@ -1,0 +1,83 @@
+
+body {
+	border: 1px solid red;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/* Formatando os links */
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #227115;
+}
+
+#slogan {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+/* LOGO */
+#logo h1 {
+	float: left;
+}
+
+#logo a {
+	width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../imagens/logo_caranguejo.jpeg) no-repeat;
+}
+
+/* Formatando a Barra de Navegação */
+
+header{
+	padding: 15px 0;
+	height: 55px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: center;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-decoration: uppercase;
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid #535858;
+}
+
+#login{
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	float: right;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;	
+}
