@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="text/css/normalize.css">
 
 		<!-- Estilo CSS -->
-		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="../css/contatos.css">
 
 		<!-- JavaScript -->
 		<link rel="stylesheet" type="text/css" href="../js/funcao.js">
@@ -22,7 +22,7 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 		<!-- Bootstrap -->
-		<script src="../js/bootstrap.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="../css/bootstrap.css">
 
 		<!-- Font Awesome -->
@@ -33,97 +33,106 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
-		<title> Caranguejo - Quem somos </title>
+		<title> Quem Somos </title>
 
 	</head>
 
-	<body class="text-sm-right">
+	<body>
 
 		<div id="container"> <!-- Container -->
+				
+			<header>
+				<h5>
+					Bem-vindo, ao maior site de vendas do Brasil!
+				</h5>
+			</header>
 
-			<div id="slogan"> <!-- Slogan -->
+			<nav class="navbar navbar-expand-sm navbar-light bg-warning">  <!-- Barra de Navegação -->	
+									
+				<!-- Logo -->
+				<a href="../index.html" class="navbar-brand">
+					<img src="../imagens/caranguejo_03.jpeg" width="100" height="50">					
+				</a> 
 
-				Bem-vindos, ao maior site de vendas!
+				<!-- button -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="nav-principal"> <!-- nav principal -->
+		            <ul class="navbar-nav ml-auto"> <!-- lista não ordenada -->
+		              <li class="nav-item">
+		                <a href="../index.html" class="nav-link">Home</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="produtos.html" class="nav-link">Produtos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="cadastro.html" class="nav-link">Cadastro</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="quemsomos.html" class="nav-link">Quem somos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="contatos.html" class="nav-link">Contatos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="login.html" class="btn btn-warning ml-4">
+		                	Entrar
+		                </a>
+		              </li>
+		            </ul> <!-- Fim lista não ordenada -->
+		       </div> <!-- Fim nav principal -->
+
+			</nav> <!-- Fim Barra de Navegação -->
 			
-			</div>
+			<h3> Quem Somos </h3>
 
-			<header> <!-- HEADER: é o cabeçalho para o corpo do HTML -->
+			<div class="row">
+				
+				<div class="col-md-4 d-flex">				
+					<p class="paragrafo">
 
-				<!-- LOGO -->
-				<div id="logo"> 
-					<h1 id="titulo"> <!-- Título como link -->
-						<a href="index.html">
-							Caranguejo
-						</a> 
-					</h1> 
+						<strong>Arthur Henrique Reis de Carvalho</strong> 
+						<br><br>
+						Academico de Sistemas de Informação.
+
+					</p>
 				</div>
 
-				<!-- BARRA DE NAVEGAÇÃO -->
-				<nav class="navbar navbar-expand-sm"> 
-					<ul>
-						<li><a href="index.html">     Home       </a></li> 
-						<li><a href="prdodutos.html"> Produtos   </a></li> 
-						<li><a href="cadastro.html">  Cadastro   </a></li> 
-						<li><a href="carrinho.html">  Carrinho   </a></li> 
-						<li><a href="quemsomos.html"> Quem somos </a></li> 
-						<li><a href="contatos.html">  Contatos   </a></li>
-					</ul>
-				</nav> 
+				<div class="col-md-4 d-flex">
+					<p class="paragrafo">
 
-				<button id="login"> LOGIN </button>
+						<strong>Juliane Valiati Maran</strong> 
+						<br><br>
+						Academica de Sistemas de Informação.
+						<br>
+						Advogada.
+					</p>
+				</div>
 
-			</header> <!-- Fim Header -->
+				<div class="col-md-4 d-flex">
+					<p class="paragrafo">
 
-			<div id="conteudo">
+						<strong>Vittorio Perotto</strong> 
+						<br><br>
+						Academico de Sistemas de Informação.
 
-				<h4> QUEM SOMOS </h4>
-
-				<p>
-					Somos academicos do 2º período de Sistemas de Informação da PUC/PR, <i>campus</i> Curitiba.
-					Este site foi criado para o Projeto da disciplina de Progaração Web, ministrada pelo 
-					Professor Eduardo Lino. <br>
-					No presente site, utilizamos as linguagens HTML, CSS e JavaScript. <br>
-					O botão de <i>login</i>, ao clicar direciona o usuário para a página de <i>Login</i> ou Cadastro, quando o usuário não estiver cadastrado no Banco de Dados do Site.<br>
-					Ao clicar no botão "Produtos" o usuário é redirecionado para a página de Compra de Produtos, sendo que ao comprar o produto, este é adicionado ao Carrinho de Compras. <br>
-				</p>
-
-				<h4>
-					<strong>Equipe de desenvolvimento:</strong>
-				</h4> 
-
-				<br>
-
-				<h5>Arthur Henrique Reis de Carvalho</h5>
-				
-				<p>
-					Responsável pelo JavaScript.	
-				</p>
-
-				<h5>Juliane Valiati Maran</h5>
-				
-				<p>
-					Responsável pelo HTML e CSS, utilizando Bootstrap e aplicação responsiva.	
-				</p>
-
-				<h5>Vittorio Perotto</h5>			
-				
-				<p>
-					Responsável pelas imagens, logo, slogan, vídeo e o GitHub	.
-				</p>
+					</p>
+				</div>
 
 			</div>
 
-			<div id="rodape"> <!-- Rodapé -->
-
+			<footer class="bg-warning"> <!-- Rodapé -->
 				<span>
+					<strong>
 					&copy; Copyright 2020 - Caranguejo <br>
 					Todos os direitos reservados. <br>
 					Por: Arthur | Juliane | Vittorio
+					</strong>
 				</span>
+			</footer> <!-- Fim Rodapé -->
 
-			</div> <!-- Fim Rodapé -->
-
-		</div> <!-- Fim Container -->
-
+		</div> <!-- Container -->
 	</body>
 </html>
