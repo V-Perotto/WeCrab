@@ -1,0 +1,151 @@
+@font-face {
+    font-family: [nome];
+    src: url([caminho]);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';  
+    
+    background: -webkit-linear-gradient(bottom, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
+    background: linear-gradient(top, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium';
+    
+    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
+    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
+
+    /*
+    background-image: url('media/img/fluid.jpg');
+    background-size: contain; */
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titleUX {
+    font-family: 'Franklin Gothic Medium';  
+    
+    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
+    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
+
+    /*
+    background-image: url('media/img/fluid.jpg');
+    background-size: contain; */
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background: #1d1d1d;
+}
+
+
+main {
+    background: linear-gradient(45deg, #3d0126 20%, #200220 40%, #42333f 100%);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bak {
+    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phr {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+
+    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
+    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phr-n {
+    background: -webkit-linear-gradient(bottom,#bd0a78 20%, #ac0249 100%);
+    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+font {
+    color: brown;
+}
+
+.font-color1 {
+    color: #ff4b4bbd
+}
+
+.font-color2 {
+    color: #cfcfcf;
+}
+
+.font-color3 {
+    color: #000000;
+}
+
+.center-text {
+    margin: 10px;
+}
+
+.hc1 {
+    color: #cfcfcf;
+}
+
+.pgraph {
+    font-family: 'Franklin Gothic Medium';
+    color: #cfcfcf;
+    text-shadow: 2px 2px #1d1d1d;
+}
+
+.pgraphB {
+    font-family: 'Franklin Gothic Medium';
+    color: #867892;
+    text-shadow: 2px 2px #1d1d1d;
+}
+
+.frank {
+    font-family: 'Franklin Gothic Medium';
+    color: #4d4d4d;
+}
+
+.nopgraph {
+    font-family: 'Franklin Gothic Medium';
+    color: #ffffff;
+}
+
+header {
+    background: linear-gradient(90deg, #2e2e2e -1%, #414141 60%, #2e2e2e 100%);
+}
+
+footer {
+    background: linear-gradient(90deg, #020202 -1%, #313131 50%, #000000 100%);
+}
+
+.hr-lab {
+    background: linear-gradient(top, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
+}
+
+.div-card {
+    background: linear-gradient(90deg, #1a0012 -1%, #270a22 60%, #14000a 100%);
+}
+
+.div-body {
+    background: #1f1f1f7e;
+}
+
+.icon-tam {
+    height: 50px;
+    width: 50px;
+}
