@@ -1,0 +1,28 @@
+@font-face {
+    src: url(C:\Users\user\trabalho_web_crab\fonts\Lequire.otf);
+    font-family: 'Lequire';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.paragraph {
+    font-family: 'Lequire';
+    color: #cfcfcf;
+}
+
+.lequire {
+    font-family: 'Lequire';
+    color: blue;
+    text-shadow: 2px 2px #1d1d1d;
+}
+
+.gradient-text {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+
+    background: -webkit-linear-gradient(#ff7446 25%, #ff4000 100%);
+    background: linear-gradient(#ff7446 25%, #ff4000 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
