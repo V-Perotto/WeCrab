@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	
+	<head>
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="text/css/normalize.css">
+
+		<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+		<!-- JavaScript -->
+		<link rel="stylesheet" type="text/css" href="../js/funcao.js">
+		<link rel="stylesheet" type="text/css" href="../js/jquery.js">
+
+		<!--<script src="jquery-3.5.1.min.js"></script>-->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+
+		<!-- Font Awesome -->
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+		<!-- HTML5 Shiv CDNjs -->
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+		<title> Login </title>
+
+	</head>
+
+	<body>
+
+		<div id="container"> <!-- Container -->
+				
+			<header>
+				<h5>
+					Bem-vindo, ao maior site de vendas do Brasil!
+				</h5>
+			</header>
+
+			<nav class="../navbar navbar-expand-sm navbar-light bg-warning">  <!-- Barra de Navegação -->	
+									
+				<!-- Logo -->
+				<a href="index.html" class="navbar-brand">
+					<img src="../imagens/caranguejo_03.jpeg" width="100" height="50">					
+				</a> 
+
+				<!-- button -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="nav-principal"> <!-- nav principal -->
+		            <ul class="navbar-nav ml-auto"> <!-- lista não ordenada -->
+		              <li class="nav-item">
+		                <a href="../index.html" class="nav-link">Home</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="produtos.html" class="nav-link">Produtos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="cadastro.html" class="nav-link">Cadastro</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="quemsomos.html" class="nav-link">Quem somos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="contatos.html" class="nav-link">Contatos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="login.html" class="btn btn-warning ml-4">
+		                	Entrar
+		                </a>
+		              </li>
+		            </ul> <!-- Fim lista não ordenada -->
+		       </div> <!-- Fim nav principal -->
+
+			</nav> <!-- Fim Barra de Navegação -->
+
+			<form action="/action_page.php"> <!-- formulário login -->			
+				<div class="form-group"> <!-- Usuário -->
+					<label for="user">
+						Usuário: 
+					</label>
+					<input type="user" class="form-control" placeholder="Usuário" id="user">
+				</div>
+				<div class="form-group"> <!-- Senha -->
+					<label for="pwd">
+						Senha: 
+					</label>
+					<input type="password" class="form-control" placeholder="Senha" id="pwd">
+				</div>
+				<div class="form-group form-check"> <!-- Checkbox -->
+					<label for="form-check-label">
+						<input type="checkbox" class="form-check-input">
+						Lembre-me
+					</label>
+				</div>
+				<button type="submit" class="btn btn-warning"> <!-- Botão -->
+					Entrar
+				</button>
+			</form>			
+
+			<footer class="bg-warning"> <!-- Rodapé -->
+				<span>
+					<strong>
+					&copy; Copyright 2020 - Caranguejo <br>
+					Todos os direitos reservados. <br>
+					Por: Arthur | Juliane | Vittorio
+					</strong>
+				</span>
+			</footer> <!-- Fim Rodapé -->
+
+		</div> <!-- Container -->
+	</body>
+</html>
