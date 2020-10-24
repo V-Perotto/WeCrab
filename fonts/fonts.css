@@ -1,19 +1,25 @@
 @font-face {
-    src: url(C:\Users\user\trabalho_web_crab\fonts\Lequire.otf);
+    src: url("../fonts/Lequire.otf");
     font-family: 'Lequire';
-    font-style: normal;
+    font-variant: normal;
     font-weight: normal;
-}
-
-.paragraph {
-    font-family: 'Lequire';
-    color: #cfcfcf;
 }
 
 .lequire {
     font-family: 'Lequire';
-    color: blue;
-    text-shadow: 2px 2px #1d1d1d;
+}
+
+.itens {
+    color: #ff4000;
+}
+
+.itens:hover {
+    color: #ff9a79;
+    cursor: pointer;
+}
+
+font {
+    color: #ff4000;
 }
 
 .gradient-text {
