@@ -1,15 +1,22 @@
 h1 {
-    font-family: 'Franklin Gothic Medium';  
-    
-    background: -webkit-linear-gradient(bottom, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
-    background: linear-gradient(top, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    font-family: 'Lequire';
+    color: black;
 }
 
-h5 {
-    font-family: 'Lequire';
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lequire', sans-serif;
+    color: black;
+}
+
+h1:hover {
+    color: #4e4e4e;
+}
+
+font:hover {
+    color: #ff7d51;
 }
 
 body {
@@ -17,36 +24,26 @@ body {
 }
 
 main {
-    background: linear-gradient(45deg, #3d0126 20%, #200220 40%, #42333f 100%);
+    background: linear-gradient(45deg, #ff7d51 20%, #ff9a79 40%, #ffbea9 100%);
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.titleUX {
-    font-family: 'Franklin Gothic Medium';  
-    
-    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
-    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
-
-    /*
-    background-image: url('media/img/fluid.jpg');
-    background-size: contain; */
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.crab-center {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.bg-colors {
-    background: -webkit-linear-gradient(bottom, #bd0a78 20%, #ac0249 100%);
-    font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.cad-center {
+    margin: 20px;
+    text-align: center;
 }
 
-.phr-n {
-    background: -webkit-linear-gradient(bottom,#bd0a78 20%, #ac0249 100%);
-    background: linear-gradient(top, #bd0a78 20%, #ac0249 100%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.img-center {
+    justify-content: center;
 }
