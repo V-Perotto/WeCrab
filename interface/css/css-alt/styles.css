@@ -29,6 +29,14 @@ main {
     margin-right: 200px;
 }
 
+p {
+    font-family: 'Louis';
+}
+
+input {
+    font-family: 'Louis';
+}
+
 .crab-center {
     padding-top: 20px;
     padding-left: 20px;

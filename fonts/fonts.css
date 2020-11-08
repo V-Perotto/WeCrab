@@ -5,6 +5,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    src: url("../fonts/Louis\ George\ Cafe.ttf");
+    font-family: 'Louis';
+    font-variant: normal;
+    font-weight: normal;
+}
+
 .lequire {
     font-family: 'Lequire';
 }
