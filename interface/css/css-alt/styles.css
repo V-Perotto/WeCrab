@@ -2,6 +2,7 @@ h1 {
     margin-top: 10px;
     font-family: 'Lequire';
     color: black;
+    transition: background-color 1s;
 }
 
 h2 {
@@ -31,6 +32,7 @@ main {
 
 p {
     font-family: 'Louis';
+    padding-top: 40px;
 }
 
 a {
@@ -41,12 +43,15 @@ input {
     font-family: 'Louis';
 }
 
+.crab-padding-down {
+    padding-bottom: 50px;
+}
+
 .crab-center {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin: 20px;
     margin-left: 400px;
     margin-right: 400px;
 }
