@@ -9,21 +9,26 @@
     font-family: 'Lequire', sans-serif;
     cursor: pointer;
     font-size: 15px;
-    padding: 10px 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-shadow: 0px 1px 0px #ff4000;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
 }
 
 .bttn:hover {
-    box-shadow: 0px 2px 12px 1px  #ff5f29;
-    background-color: #ff5f29;
-    border-style: solid ;
-    border-color: #ff5f29;
+    box-shadow: 0px 2px 12px 1px  #ff6b3a;
+    background-color: #ff6b3a;
+    border-color: #ff6b3a;
     color: white;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #ff5f29;
+    text-shadow: 0px 1px 0px #ff6b3a;
 }
 
 .bttn:active {
-    position: relative;
     top: 2px;
 }
