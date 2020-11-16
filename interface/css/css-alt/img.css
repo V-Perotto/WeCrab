@@ -18,10 +18,14 @@
 
 .p-large {
     font-size: x-large;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .p-medium {
     font-size: 22px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
 }
 
 .crab-cad {
