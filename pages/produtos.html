@@ -28,8 +28,8 @@
 		<link rel="stylesheet" type="text/js" href="../interface/js/jquery.js">
 	</head>
 
-	<body>
 		<header>
+		<div>
         	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 shadow-sm">
             
             	<!-- Logo -->
@@ -66,29 +66,28 @@
 				<nav class="my-1 mr-md-2">
 					<div class="navbar-collapse">
 						<ol class="navbar-nav left">
-		              		<li class="nav-item">
-		                		<a href="pages/login.html" class="bttn">Entrar</a>
+		              		<li class="nav-item"> <!--hidden-->
+		                		<button id="btnLogin" href="pages/login.html" class="bttn-logar">Logar</button>
+								<button id="btnCadastro" href="pages/cadastro.html" class="bttn">Cadastro</button>
 		              		</li>
 						</ol>
 					</div>
 				</nav>
-        </div>
+			</div>
+		</div>
     </header>
 
 <body>
+	<div class="card cad-center"> <!-- Row -->
 	<div class="cad-center">
 		<h2>Produtos</h2>
 	</div>
-	<div class="card cad-center"> <!-- Row -->
 		<section class="crab-center"> <!-- Seção 01 -->
-			<div class="p-large">
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div>
+				<p class="p-large sign txt">
+					Nossos produtos são feitos com a melhor qualidade marítima que você jamais viu antes. 
+					Estes aparelhos contém materiais únicos, fabricados somente por artesãos caranguejistas de alto padrão.
+					
 				</p>
 			</div>
 		</section>
@@ -99,10 +98,13 @@
 							<div class="img-center crab-img-padding">
 								<img class="crab-img" src="../img/Smartphone/smartphone-orange.png">
 							</div>
-							<h3>Produto 01</h3>
-							<div class="">
+							<h3>Sunlight Crab</h3>
+							<div>
+								<p class="p-medium sign txt"><b>C$</b> 1.700,00</p>
 							</div>
-							<p class="p-medium">Lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson</p>
+							<div>
+								<button id="buyOrange" href="#" class="non-bttn">Comprar</button> 
+							</div>
 						</div>				
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12">
@@ -110,10 +112,13 @@
 							<div class="img-center crab-img-padding">
 								<img class="crab-img" src="../img/Smartphone/smartphone-purple.png">
 							</div>
-							<h3>Produto 01</h3>
-							<div class="">
+							<h3>Midnight Crab</h3>
+							<div>
+								<p class="p-medium sign txt"><b>C$</b> 1.600,00</p>
 							</div>
-							<p class="p-medium">Lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson</p>
+							<div>
+								<button id="buyPurple" href="#" class="bttn-purple">Comprar</button> 
+							</div>
 						</div>	
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12">
@@ -121,10 +126,13 @@
 							<div class="img-center crab-img-padding">
 								<img class="crab-img" src="../img/Smartphone/smartphone-gray.png">
 							</div>
-							<h3>Produto 01</h3>
-							<div class="">
+							<h3>Black Crab</h3>
+							<div>
+								<p class="p-medium sign txt"><b>C$</b> 1.500,00</p>
 							</div>
-							<p class="p-medium">Lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson lorem ipson</p>
+							<div>
+								<button id="buyBlack" href="#" class="bttn-black">Comprar</button> 
+							</div>
 						</div>				
 					</div>
 				</div>
@@ -137,12 +145,12 @@
     	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
         	<div class="container">
             	<!-- Back to Lobby -->
-            	<p class="float-right">
+            	<p class="float-right sign">
                 	<a href="#"><font>Voltar ao início</font></a>
             	</p>
             	<!-- Footer Author -->
-            	<p class="center">
-				 © Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
+            	<p class="center sign">
+				 &copy; Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
 				 Por: 
 					<strong>
 						<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
