@@ -1,0 +1,34 @@
+@font-face {
+    src: url("../fonts/Lequire.otf");
+    font-family: 'Lequire';
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.lequire {
+    font-family: 'Lequire';
+}
+
+.itens {
+    color: #ff4000;
+}
+
+.itens:hover {
+    color: #ff9a79;
+    cursor: pointer;
+}
+
+font {
+    color: #ff4000;
+}
+
+.gradient-text {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+
+    background: -webkit-linear-gradient(#ff7446 25%, #ff4000 100%);
+    background: linear-gradient(#ff7446 25%, #ff4000 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

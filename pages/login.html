@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	
+	<head>
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="text/css/normalize.css">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/scrollbar.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/button.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/div.css">
+		<link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/header-footer.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/styles.css">
+
+		<!-- JavaScript -->
+		<link rel="stylesheet" type="text/js" href="../interface/js/cadLogin.js">
+		<link rel="stylesheet" type="text/js" href="../interface/js/jquery.js">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="../bootstrap-4.5.2/css/bootstrap.min.css">
+
+		<!-- Font Awesome -->
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+		<!-- HTML5 Shiv CDNjs -->
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+		<title> Login </title>
+
+	</head>
+
+	<body>	
+
+		<div id="container"> <!-- Container -->
+				
+			<header>
+				<h5>
+					Bem-vindo, ao maior site de vendas do Brasil!
+				</h5>
+			</header>
+
+			<nav class="../navbar navbar-expand-sm navbar-light bg-warning">  <!-- Barra de Navegação -->	
+									
+				<!-- Logo -->
+				<a href="index.html" class="navbar-brand">
+					<img src="../imagens/caranguejo_03.jpeg" width="100" height="50">					
+				</a> 
+
+				<!-- button -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="nav-principal"> <!-- nav principal -->
+		            <ul class="navbar-nav ml-auto"> <!-- lista não ordenada -->
+		              <li class="nav-item">
+		                <a href="../index.html" class="nav-link">Home</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="produtos.html" class="nav-link">Produtos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="cadastro.html" class="nav-link">Cadastro</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="quemsomos.html" class="nav-link">Quem somos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="contatos.html" class="nav-link">Contatos</a>
+		              </li>
+		              <li class="nav-item">
+		                <a href="login.html" class="btn btn-warning ml-4">
+		                	Entrar
+		                </a>
+		              </li>
+		            </ul> <!-- Fim lista não ordenada -->
+		       </div> <!-- Fim nav principal -->
+
+			</nav> <!-- Fim Barra de Navegação -->
+
+			<form action="#"> <!-- formulário login -->	
+
+				<!-- E-mail - campo para o usuário inserir o email cadastrado -->		
+				<label for="fEmail">E-mail:</label>
+				<input class="form-control border-light bg-light campoFormulario" 
+				type="email"
+				id="fEmail" name="email" placeholder="seuemail@email.com">
+				<br />
+
+				<!-- Senha - campo para o usuario inserir a senha de login -->
+				<label for="fSenha">Senha:</label>
+				<input class="form-control border-light bg-light campoFormulario" 
+				id="fSenha" type="password" name="senha" placeholder="Senha">
+				<br />
+
+				<!-- Botão Entrar -->
+				<button class="bttn campoFormulario" id="bEntrar" 
+				name="bCadastrar" type="submit">
+					Entrar
+				</button>
+			</form>			
+
+			<!-- Footer -->
+	    	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
+	        	<div class="container">
+	            	<!-- Back to Lobby -->
+	            	<p class="float-right">
+	                	<a href="../index.html"><font>Voltar ao início</font></a>
+	            	</p>
+	            	<!-- Footer Author -->
+	            	<p class="center">
+					 &copy; Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
+					 Por: 
+						<strong>
+							<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
+								<font class="gradient-text">Arthur</font>
+							</a>
+						</strong> | 
+						<strong>
+							<a href="https://github.com/JulianeMaran32" target="_blank">
+								<font class="gradient-text">Juliane</font>
+							</a>
+						</strong> |
+						<strong> 
+							<a href="https://github.com/V-Perotto" target="_blank">
+								<font class="gradient-text">Vittorio</font>
+							</a>
+						</strong>
+	            	</p>
+	        	</div>
+	    	</footer>
+
+		</div> <!-- Container -->
+	</body>
+</html>

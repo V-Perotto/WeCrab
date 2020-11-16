@@ -1,0 +1,29 @@
+.bttn {
+    box-shadow: 0px 2px 12px 1px  #ff4000;
+    background-color: #ff4000;
+    border-radius: 5px;
+    color: white;
+    border-style: solid ;
+    border-color: #ff4000;
+    display: inline-block;
+    font-family: 'Lequire', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 32px;
+    text-shadow: 0px 1px 0px #ff4000;
+}
+
+.bttn:hover {
+    box-shadow: 0px 2px 12px 1px  #ff5f29;
+    background-color: #ff5f29;
+    border-style: solid ;
+    border-color: #ff5f29;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff5f29;
+}
+
+.bttn:active {
+    position: relative;
+    top: 2px;
+}

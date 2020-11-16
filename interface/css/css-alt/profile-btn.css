@@ -1,0 +1,55 @@
+.profileButton {
+    box-shadow: 0px 0px 12px -1px #9a10c4;
+    background-color: #9a10c40c;
+    border-radius: 5px;
+    border-style: solid ;
+    border-color: #9a10c4;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 11px 20px;
+    text-decoration: white;
+    color:#9a10c4;
+}
+
+.profileButton:hover {
+    background-color: #9a10c4;
+    color: white;
+    text-decoration: none;
+}
+
+.profileButton:active {
+    position: relative;
+    top: 0px;
+}
+
+/* Logout */
+
+.logoutButton {
+    box-shadow: 0px 0px 12px -1px #c4101f;
+    background-color: #c4101f0c;
+    border-radius: 5px;
+    border-style: solid ;
+    border-color: #c4101f;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 11px 20px;
+    text-decoration: white;
+    color:#c4101f;
+}
+
+.logoutButton:hover {
+    background-color: #c4101f;
+    color: white;
+    text-decoration: none;
+}
+
+.logoutButton:active {
+    position: relative;
+    top: 0px;
+}

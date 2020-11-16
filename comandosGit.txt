@@ -1,0 +1,30 @@
+	******************************************************************
+	
+	***** USANDO O PROMPT DE COMANDO ***** CMD *****
+
+	***** NESSE PASSO A PASSO UTILIZEI O GITHUB ***** 
+	***** PODE SER USANDO NO GITLAB *****
+
+	***** COLOCANDO UM ARQUIVO NO REPOSITÓRIO *****
+
+	git init
+	git remote add origin https://github.com/nome_de_usuario_git/nome_do_repositorio.git
+	git add .
+	git commit -m "nome_do_commit"
+	git push origin master
+
+	***** CRIANDO UM BRANCH *****
+	git init
+	git branch
+	git branch nome_do_novo_branch
+	git checkout nome_do_novo_branch
+
+	***** ADICIONANDO ARQUIVO NO BRANCH *****
+
+	git add nome_do_arquivo
+	git commit -m "nome_do_commit"
+	git push origin nome_do_novo_branch
+
+	******************************************************************
+
+

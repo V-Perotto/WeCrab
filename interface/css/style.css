@@ -1,0 +1,75 @@
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.quem-somos{
+    background-color: rgba(255, 250, 219, 0.767);
+}
+
+.parceiros {
+    background-color: rgba(255, 250, 219, 0.767);
+}
+
+.img-parc {
+    width: 200px;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(206, 195, 156);
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 30px;
+}
+
+.h-text {
+    color: rgb(138, 2, 2);
+}
+
+.color-text {
+    color: rgb(92, 92, 92);
+}
+
+.margin {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.margin-img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.img-tam {
+    width: 500px;
+    height: 500px;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 10px;
+}
+
+.margin-correction {
+    padding-top: 50px;
+    padding-bottom: 1px;
+}
