@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	
+	<head>
+		<title>Cadastro - WeCrab</title>
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="../bootstrap-4.5.2/css/bootstrap.min.css">
+
+		<!--<script src="jquery-3.5.1.min.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="../interface/js/jquery-3.5.1.min.js">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/scrollbar.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/button.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/div.css">
+		<link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/header-footer.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/styles.css">
+
+		<!-- JavaScript -->
+		<link rel="stylesheet" type="text/js" href="../interface/js/funcao.js">
+		<link rel="stylesheet" type="text/js" href="../interface/js/jquery.js">
+		
+		<!-- Font Awesome -->
+	    <script scr="https://use.fontawesome.com/releases/v5.13.0/css/all.css"></script>
+		
+		<!-- HTML5 Shiv CDNjs -->
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header>
+        	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 shadow-sm">
+            
+            	<!-- Logo -->
+				<a href="../index.html" class="navbar-brand">
+					<img src="../img/Crab.png" width="100" height="50">					
+				</a>
+
+				<a href="../index.html" class="navbar-brand">
+					<h1>We<font>Crab</font></h1>					
+				</a>
+
+				<nav class="navbar navbar-expand-lg my-1 mr-md-auto">
+					<div class="navbar-collapse"> <!-- nav principal -->
+		            	<ol class="navbar-nav align-content-center"> <!-- lista não ordenada -->
+		              		<li class="nav-item">
+		                		<a href="../index.html" class="nav-link itens av-link mr-md-4">Home</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="pages/produtos.html" class="nav-link itens av-link mr-md-4">Produtos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="pages/cadastro.html" class="nav-link itens av-link mr-md-4">Cadastro</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="pages/quemsomos.html" class="nav-link itens av-link mr-md-4">Quem somos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="pages/contatos.html" class="nav-link itens av-link mr-md-4">Contatos</a>
+		              		</li>
+		            	</ol> <!-- Fim lista não ordenada -->
+		       		</div> <!-- Fim nav principal -->
+				</nav> <!-- Fim Barra de Navegação -->
+
+				<nav class="my-1 mr-md-2">
+					<div class="navbar-collapse">
+						<ol class="navbar-nav left">
+		              		<li class="nav-item">
+		                		<a href="pages/login.html" class="bttn">Entrar</a>
+		              		</li>
+						</ol>
+					</div>
+				</nav>
+        </div>
+    </header>
+
+		<div class="cad-center">
+			<h2>Cadastro</h2>
+		</div>
+			
+		<div class="card crab-center">
+			<div class="crab-center">
+
+				<p class=""> Nome: </p>
+				<input class="form-control border-light bg-light" type="text" name="nome" placeholder="Nome">
+				<br />
+
+				<p class=""> Sobrenome: </p>
+				<input class="form-control border-light bg-light"  type="text" name="sobrenome" placeholder="Sobrenome">
+				<br />
+
+				<p class=""> E-mail: </p>
+				<input class="form-control border-light bg-light"  type="email" name="email" placeholder="seuemail@email.com">
+				<br />
+
+				<p class=""> Senha: </p>
+				<input class="form-control border-light bg-light"  type="password" name="senha" placeholder="Senha">
+				<br />
+
+				<p class=""> Telefone: </p>
+				<input class="form-control border-light bg-light"  type="text" name="telefone" placeholder="(00) 0 0000-0000">
+				<br />
+
+				<input class="bttn" id="botao-cadastro" type="submit" name="enviar" value="Cadastrar">
+			</div>
+		</div>
+
+		<!-- Footer -->
+    	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
+        	<div class="container">
+            	<!-- Back to Lobby -->
+            	<p class="float-right">
+                	<a href="#"><font>Voltar ao início</font></a>
+            	</p>
+            	<!-- Footer Author -->
+            	<p class="center">
+				 © Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
+				 Por: 
+					<strong>
+						<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
+							<font class="gradient-text">Arthur</font>
+						</a>
+					</strong> | 
+					<strong>
+						<a href="https://github.com/JulianeMaran32" target="_blank">
+							<font class="gradient-text">Juliane</font>
+						</a>
+					</strong> |
+					<strong> 
+						<a href="https://github.com/V-Perotto" target="_blank">
+							<font class="gradient-text">Vittorio</font>
+						</a>
+					</strong>
+            	</p>
+        	</div>
+    	</footer>
+
+		</div> <!-- Container -->
+	</body>
+</html>
