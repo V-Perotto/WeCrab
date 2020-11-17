@@ -1,11 +1,15 @@
-.gradient-label {
-    background: linear-gradient(top, #9B004A 40%, #9b0093 60%, #df6dd9 100%);
-}
-
 .div-card-color {
     background: linear-gradient(90deg, #ffffff -1%, #ffffff 60%, #ffffff 100%);
 }
 
 .div-body-color {
     background: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
 }

@@ -6,5 +6,5 @@
     -webkit-border-radius: 10px;
     border-radius: 15px;
     background: #b84d26;
-    -webkit-box-shadow: inset 0px 0px 10px #d37552;
+    box-shadow: inset 0px 0px 10px #d37552;
 }
