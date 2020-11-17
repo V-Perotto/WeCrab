@@ -6,3 +6,9 @@ header {
 footer {
     background: linear-gradient(#ffad96 20%, #fa9370 100%);
 }
+
+.footer-fixed {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
