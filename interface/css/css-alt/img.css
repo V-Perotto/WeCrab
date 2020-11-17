@@ -1,0 +1,40 @@
+.crab-img {
+    width: 60%;
+    height: 60%;
+}
+
+.crab-margin {
+    margin-top: 80px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+}
+
+.crab-img-padding {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.p-large {
+    font-size: x-large;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.p-medium {
+    font-size: 22px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+}
+
+.crab-cad {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 60px;
+} 
+
+.crab-card {
+    padding-left: 200px;
+    padding-right: 200px;
+}

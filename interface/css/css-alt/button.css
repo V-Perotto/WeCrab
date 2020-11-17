@@ -9,21 +9,147 @@
     font-family: 'Lequire', sans-serif;
     cursor: pointer;
     font-size: 15px;
-    padding: 10px 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-shadow: 0px 1px 0px #ff4000;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.non-bttn {
+    box-shadow: 0px 2px 12px 1px  #ff4000;
+    border-radius: 5px;
+    color: #ff4000;
+    border-style: solid;
+    border-color: #ff4000;
+    display: inline-block;
+    font-family: 'Louis', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.bttn-logar {
+    box-shadow: 0px 2px 12px 1px  #005d69;
+    background-color: #00b0c7;
+    border-radius: 5px;
+    color: white;
+    border-style: solid;
+    border-color: #00b0c7;
+    display: inline-block;
+    font-family: 'Lequire', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 0px 1px 0px #00b0c7;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.bttn-purple {
+    box-shadow: 0px 2px 12px 1px  #400074;
+    border-radius: 5px;
+    color: #400074;
+    border-style: solid;
+    border-color: #400074;
+    display: inline-block;
+    font-family: 'Louis', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.bttn-black {
+    box-shadow: 0px 2px 12px 1px  #333333;
+    border-radius: 5px;
+    color: #333333;
+    border-style: solid;
+    border-color: #333333;
+    display: inline-block;
+    font-family: 'Louis', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 2s;
+    transition: border-color 2s;
+    transition: text-shadow 2s;
+    transition: box-shadow 2s;
+}
+
+.bttn-purple:hover {
+    box-shadow: 0px 2px 12px 1px  #400074;
+    background-color: #400074;
+    border-color: #400074;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #400074;
+}
+
+.bttn-black:hover {
+    box-shadow: 0px 2px 12px 1px  #2e2e2e;
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #333333;
+}
+
+.bttn-logar:hover {
+    box-shadow: 0px 2px 12px 1px  #002a30;
+    background-color: #005c68;
+    border-color: #005c68;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #005c68;
+}
+
+.non-bttn:hover {
+    box-shadow: 0px 2px 12px 1px  #ff6b3a;
+    background-color: #ff6b3a;
+    border-color: #ff6b3a;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff6b3a;
 }
 
 .bttn:hover {
-    box-shadow: 0px 2px 12px 1px  #ff5f29;
-    background-color: #ff5f29;
-    border-style: solid ;
-    border-color: #ff5f29;
+    box-shadow: 0px 2px 12px 1px  #ff6b3a;
+    background-color: #ff6b3a;
+    border-color: #ff6b3a;
     color: white;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #ff5f29;
+    text-shadow: 0px 1px 0px #ff6b3a;
 }
 
 .bttn:active {
-    position: relative;
     top: 2px;
 }
