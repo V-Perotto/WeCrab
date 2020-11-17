@@ -3,123 +3,125 @@
 <html lang="pt-BR">
 	
 	<head>
+		<title>Login - WeCrab</title>
 		
 		<!-- Exibe a página HTML corretamente -->
-		<meta charset="utf-8"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<!-- Normalize CSS -->
-		<link rel="stylesheet" type="text/css" href="text/css/normalize.css">
-
-		<!-- Estilo CSS -->
-		<link rel="stylesheet" type="text/css" href="../css/login.css">
-
-		<!-- JavaScript -->
-		<link rel="stylesheet" type="text/css" href="../js/funcao.js">
-		<link rel="stylesheet" type="text/css" href="../js/jquery.js">
+		<meta charset="utf-8">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="../bootstrap-4.5.2/css/bootstrap.min.css">
 
 		<!--<script src="jquery-3.5.1.min.js"></script>-->
-		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="../scripts/jquery/jquery-3.5.1.min.js">
 
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.js"></script>
-		<link rel="stylesheet" href="../css/bootstrap.css">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/scrollbar.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/button.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/div.css">
+		<link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/header-footer.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/styles.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/img.css">
 
-		<!-- Font Awesome -->
-	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-
-		<!-- HTML5 Shiv CDNjs -->
-		<!--[if lt IE 9]>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-		<![endif]-->
-
-		<title> Login </title>
-
+		<!-- JavaScript -->
+		<link rel="stylesheet" type="text/js" href="../scripts/js/funcao.js">
 	</head>
 
+		<header>
+		<div>
+        	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 shadow-sm">
+            
+            	<!-- Logo -->
+				<a href="../index.html" class="navbar-brand">
+					<img src="../img/Crab.png" width="100" height="50">					
+				</a>
+
+				<a href="../index.html" class="navbar-brand">
+					<h1>We<font>Crab</font></h1>					
+				</a>
+
+				<nav class="navbar navbar-expand-lg my-1 mr-md-auto">
+					<div class="navbar-collapse"> <!-- nav principal -->
+		            	<ol class="navbar-nav align-content-center"> <!-- lista não ordenada -->
+		              		<li class="nav-item">
+		                		<a href="../index.html" class="nav-link itens av-link mr-md-4">Home</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/produtos.html" class="nav-link itens av-link mr-md-4">Produtos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/quemsomos.html" class="nav-link itens av-link mr-md-4">Quem somos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/contatos.html" class="nav-link itens av-link mr-md-4">Contatos</a>
+		              		</li>
+		            	</ol> <!-- Fim lista não ordenada -->
+		       		</div> <!-- Fim nav principal -->
+				</nav> <!-- Fim Barra de Navegação -->
+
+				<nav class="my-1 mr-md-2">
+					<div class="navbar-collapse">
+						<ol class="navbar-nav left">
+		              		<li class="nav-item"> <!--hidden-->
+								<button id="btnCadastro" href="../pages/cadastro.html" class="bttn">Cadastro</button>
+		              		</li>
+						</ol>
+					</div>
+				</nav>
+			</div>
+		</div>
+    </header>
+
 	<body>
-
-		<div id="container"> <!-- Container -->
-				
-			<header>
-				<h5>
-					Bem-vindo, ao maior site de vendas do Brasil!
-				</h5>
-			</header>
-
-			<nav class="../navbar navbar-expand-sm navbar-light bg-warning">  <!-- Barra de Navegação -->	
-									
-				<!-- Logo -->
-				<a href="index.html" class="navbar-brand">
-					<img src="../imagens/caranguejo_03.jpeg" width="100" height="50">					
-				</a> 
-
-				<!-- button -->
-				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="nav-principal"> <!-- nav principal -->
-		            <ul class="navbar-nav ml-auto"> <!-- lista não ordenada -->
-		              <li class="nav-item">
-		                <a href="../index.html" class="nav-link">Home</a>
-		              </li>
-		              <li class="nav-item">
-		                <a href="produtos.html" class="nav-link">Produtos</a>
-		              </li>
-		              <li class="nav-item">
-		                <a href="cadastro.html" class="nav-link">Cadastro</a>
-		              </li>
-		              <li class="nav-item">
-		                <a href="quemsomos.html" class="nav-link">Quem somos</a>
-		              </li>
-		              <li class="nav-item">
-		                <a href="contatos.html" class="nav-link">Contatos</a>
-		              </li>
-		              <li class="nav-item">
-		                <a href="login.html" class="btn btn-warning ml-4">
-		                	Entrar
-		                </a>
-		              </li>
-		            </ul> <!-- Fim lista não ordenada -->
-		       </div> <!-- Fim nav principal -->
-
-			</nav> <!-- Fim Barra de Navegação -->
-
-			<form action="/action_page.php"> <!-- formulário login -->			
-				<div class="form-group"> <!-- Usuário -->
-					<label for="user">
-						Usuário: 
-					</label>
-					<input type="user" class="form-control" placeholder="Usuário" id="user">
+		<br />
+		<div class="cad-center">
+			<h2>Login</h2>
+		</div>
+			
+		<div class="card crab-center crab-cad">
+			<div class="align-content-center crab-card">
+				<br /> 
+				<p class="p-large"> E-mail: </p>
+				<input class="form-control border-light bg-light"  type="email" name="email" placeholder="seuemail@email.com">
+				<br>
+				<p class="p-large"> Senha: </p>
+				<input class="form-control border-light bg-light"  type="password" name="senha" placeholder="Sua senha">
+				<br>
+				<div class="cad-center">
+					<input class="bttn" id="botao-cadastro" type="submit" name="enviar" value="Entrar">
 				</div>
-				<div class="form-group"> <!-- Senha -->
-					<label for="pwd">
-						Senha: 
-					</label>
-					<input type="password" class="form-control" placeholder="Senha" id="pwd">
-				</div>
-				<div class="form-group form-check"> <!-- Checkbox -->
-					<label for="form-check-label">
-						<input type="checkbox" class="form-check-input">
-						Lembre-me
-					</label>
-				</div>
-				<button type="submit" class="btn btn-warning"> <!-- Botão -->
-					Entrar
-				</button>
-			</form>			
-
-			<footer class="bg-warning"> <!-- Rodapé -->
-				<span>
-					<strong>
-					&copy; Copyright 2020 - Caranguejo <br>
-					Todos os direitos reservados. <br>
-					Por: Arthur | Juliane | Vittorio
-					</strong>
-				</span>
-			</footer> <!-- Fim Rodapé -->
-
-		</div> <!-- Container -->
+				<br />
+			</div>
+		</div>
 	</body>
+
+	<!-- Footer -->
+		<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer footer-fixed">
+			<div class="container">
+			<!-- Back to Lobby -->
+			<p class="float-right">
+				<a href="#"><img src="../img/backInitial.png" width="40" height="40"></a>
+			</p>
+			<!-- Footer Author -->
+			<p class="center">
+			 &copy; Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
+			 Por: 
+			<b>
+				<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
+					<font class="gradient-text">Arthur</font>
+				</a>
+			</b> | 
+			<b>
+				<a href="https://github.com/JulianeMaran32" target="_blank">
+					<font class="gradient-text">Juliane</font>
+				</a>
+			</strong> |
+			<b> 
+				<a href="https://github.com/V-Perotto" target="_blank">
+					<font class="gradient-text">Vittorio</font>
+				</a>
+			</b>
+			</p>
+		</div>
+	</footer>
 </html>
