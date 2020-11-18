@@ -1,0 +1,29 @@
+.citacao {
+    font-size: xx-large;
+    font-style: italic;
+    color: #353535;
+    text-align: center;
+}
+
+.minus {
+    font-size: small;
+}
+
+.jump {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.jump-section {
+    margin-top: 200px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.phone {
+    justify-content: center;
+    width: 70%;
+    height: 75%;
+}
