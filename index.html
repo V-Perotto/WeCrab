@@ -26,9 +26,10 @@
 		<link rel="stylesheet" type="text/css" href="./interface/css/home.css">
 
 		<!-- JavaScript -->
-		<link rel="stylesheet" type="text/js" href="./scripts/js/shopcart.js">
-		<link rel="stylesheet" type="text/js" href="./scripts/js/data.js">
-		<link rel="stylesheet" type="text/js" href="./scripts/js/jquery.js">
+		<script src="./scripts/js/shopcart.js"></script>
+		<script src="./scripts/js/data.js"></script>
+		<script src="./scripts/js/jquery.js"></script>
+		<script src="./scripts/js/jquery.js"></script>
 	</head>
 
 	<body>
@@ -66,8 +67,17 @@
 				<!-- Search -->
 				<nav class="navbar mr-md-auto">
 					<div>
-						<label class="sign">Search: </label>
-						<input class="form-control border-dark bg-light" type="url" value="">
+						<input class="form-control border-dark bg-light" placeholder="Busca" list="phones" value="" name="" id="search-input" onkeyup="procura()">
+						<datalist id="phones">
+							<option value="Sunlight Crab">Sunlight Crab C$ 1700,00</option>
+							<option value="Midnight Crab">Midnight Crab C$ 1600,00</option>
+							<option value="Black Crab">Black Crab C$ 1500,00</option>
+						</datalist>
+					</div>
+					<div>
+						<a id="btnLogin" href="./pages/produtos.html"> 
+							<img class="search" src="./img/search.png">
+						</a>
 					</div>
 				</nav>
 				
