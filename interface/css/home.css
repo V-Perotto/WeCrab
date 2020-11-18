@@ -27,3 +27,9 @@ h4 {
     width: 70%;
     height: 75%;
 }
+
+.search {
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+}
