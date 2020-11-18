@@ -24,7 +24,10 @@
 
 .p-medium {
     font-size: 22px;
-    padding: 20px 30px 20px 30px;
+    padding-top: 20px; 
+    padding-right: 30px; 
+    padding-bottom: 20px; 
+    padding-left:  30px;
     text-align: center;
 }
 
