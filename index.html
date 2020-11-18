@@ -21,10 +21,14 @@
 		<link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="./interface/css/css-alt/header-footer.css">
 		<link rel="stylesheet" type="text/css" href="./interface/css/css-alt/styles.css">
+		<link rel="stylesheet" type="text/css" href="./interface/css/css-alt/img.css">
+		<link rel="stylesheet" type="text/css" href="./interface/css/contact.css">
+		<link rel="stylesheet" type="text/css" href="./interface/css/home.css">
 
 		<!-- JavaScript -->
-		<link rel="stylesheet" type="text/js" href="./interface/js/funcao.js">
-		<link rel="stylesheet" type="text/js" href="./interface/js/jquery.js">
+		<link rel="stylesheet" type="text/js" href="./scripts/js/shopcart.js">
+		<link rel="stylesheet" type="text/js" href="./scripts/js/data.js">
+		<link rel="stylesheet" type="text/js" href="./scripts/js/jquery.js">
 	</head>
 
 	<body>
@@ -63,8 +67,7 @@
 					<div class="navbar-collapse">
 						<ol class="navbar-nav left">
 		              		<li class="nav-item"> <!--hidden-->
-		                		<button id="btnLogin" href="../pages/login.html" class="bttn-logar">Entrar</button>
-								<button id="btnCadastro" href="../pages/cadastro.html" class="bttn">Cadastro</button>
+		                		<a id="btnLogin" href="./pages/login.html" class="bttn-logar">Entrar</a>
 		              		</li>
 						</ol>
 					</div>
@@ -72,38 +75,80 @@
         </div>
     </header>
 
+<body>
 
+	<section class="#cadastro jump">
+	<div class="container">
+		<div class="row">
+			<div class="centralize">
+				<h4 class="citacao"><p class="sign">"Sinta-se como um verdadeiro caranguejista usando nossos produtos."</p></h4>
+				<p class="minus sign">~ Valerium, the Crab.</p>
+				<br />
+				<a id="btnCadastro" href="./pages/cadastro.html" class="bttn jump">Cadastre-se</a>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="#produtos jump-section">
+		<div class="container">
+			<div class="row">
+				<div class="centralize card">
+					<h4 class="citacao sign"><b>Nossos Produtos:</b></h4>
+						<p class="p-large sign">Smartcrabs - o Smartphone para caranguejistas.</p>
+						<br />
+					<div>
+						<img class="phone" src="./img/Smartphone/Smartphones.png">	
+					</div>
+					<div>
+						<a id="btnProduto" href="./pages/produtos.html" class="bttn">Compre agora</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="#video jump-section">
+		<div class="container">
+			<div class="row">
+				<div class="centralize card">
+					<h4 class="citacao sign"><b>Conheça nossos produtos!</b></h4>
+					<br />
+					<iframe width="900" height="600" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
 
 	<!-- Footer -->
     	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
         	<div class="container">
             	<!-- Back to Lobby -->
             	<p class="float-right">
-                	<a href="#"><font>Voltar ao início</font></a>
-            	</p>
+					<a href="#"><img src="../img/backInitial.png" width="40" height="40"></a>
+				</p>
             	<!-- Footer Author -->
-            	<p class="center">
+            	<p class="center sign">
 				 &copy; Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
 				 Por: 
-					<strong>
+					<b>
 						<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
 							<font class="gradient-text">Arthur</font>
 						</a>
-					</strong> | 
-					<strong>
+					</b> | 
+					<b>
 						<a href="https://github.com/JulianeMaran32" target="_blank">
 							<font class="gradient-text">Juliane</font>
 						</a>
-					</strong> |
-					<strong> 
+					</b> |
+					<b> 
 						<a href="https://github.com/V-Perotto" target="_blank">
 							<font class="gradient-text">Vittorio</font>
 						</a>
-					</strong>
+					</b>
             	</p>
         	</div>
     	</footer>
-
-		</div> <!-- Container -->
-	</body>
 </html>
