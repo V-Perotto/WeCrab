@@ -1,4 +1,4 @@
-# Trabalho Web: weCrab
+# Trabalho Web: WeCrab
 
 > Trabalho de Programação WEB da PUCPR.
 
