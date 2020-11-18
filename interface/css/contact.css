@@ -1,0 +1,10 @@
+.sm-img {
+    width: 200px;
+    height: 200px;
+}
+
+.centralize {
+    text-align: center;
+    padding: 50px;
+    margin: 26px;
+}
