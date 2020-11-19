@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	
+	<head>
+		<title>Cadastro - WeCrab</title>
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8">
+		
+		<!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="../bootstrap-4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../bootstrap-4.5.2/js/bootstrap.min.js">
+
+		<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/button.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/div.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/header-footer.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/img.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/scrollbar.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/styles.css">
+
+		<link rel="stylesheet" type="text/css" href="../interface/css/cadastro.css">
+
+		<link rel="stylesheet" type="text/css" href="../fonts/fonts.css">		
+
+		<!-- Arquivo JQuery 3.3.1 -->
+		<script type="text/javascript" src="../scripts/js/jquery-3.3.1.min.js"></script>
+		
+		<!-- JavaScript -->
+		<script type="text/javascript" src="../scripts/js/data1.js"></script>
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="../scripts/js/jquery.js"></script>
+		
+		<!-- Font Awesome -->
+	    <script scr="https://use.fontawesome.com/releases/v5.13.0/css/all.css"></script>
+		
+		<!-- HTML5 Shiv CDNjs -->
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<header>
+        	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 shadow-sm">
+            
+            	<a href="../index.html" class="navbar-brand">
+					<img src="../img/Crab.png" width="100" height="50">					
+				</a>
+
+				<a href="../index.html" class="navbar-brand">
+					<h1>We<font>Crab</font></h1>					
+				</a>
+
+				<nav class="navbar navbar-expand-lg my-1 mr-md-auto">
+					<div class="navbar-collapse"> <!-- nav principal -->
+		            	<ol class="navbar-nav align-content-center"> <!-- lista não ordenada -->
+		              		<li class="nav-item">
+		                		<a href="../index.html" class="nav-link itens av-link mr-md-4">Home</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/produtos.html" class="nav-link itens av-link mr-md-4">Produtos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/quemsomos.html" class="nav-link itens av-link mr-md-4">Quem somos</a>
+		              		</li>
+		              		<li class="nav-item">
+		                		<a href="../pages/contatos.html" class="nav-link itens av-link mr-md-4">Contatos</a>
+		              		</li>
+		            	</ol> <!-- Fim lista não ordenada -->
+		       		</div> <!-- Fim nav principal -->
+				</nav> <!-- Fim Barra de Navegação -->
+
+				<nav class="my-1 mr-md-2">
+					<div class="navbar-collapse">
+						<ol class="navbar-nav left">
+		              		<li class="nav-item">
+		                		<a href="../pages/login.html" class="bttn-logar">Entrar</a>
+		              		</li>
+						</ol>
+					</div>
+				</nav>
+	        </div>
+	    </header>
+
+		<div class="cad-center">
+			<h2>Cadastro</h2>
+		</div>
+			
+		<div class="card crab-center crab-cad">
+			<div class="align-content-center crab-card formulario">
+
+				<!-- na tag form contêm atributos de validação JavaScript -->
+				<form id="registrar" name="registrar" method="post" action="#" onsubmit="return validarForm()">
+
+					<p class="p-large" for="fNome"> Nome: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fNome" 
+					type="text" name="fNome" placeholder="Seu nome" onblur="validarForm(idCampo)">
+
+					<p class="p-large" for="fSobrenome"> Sobrenome: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fSobrenome" 
+					type="text" name="fSobrenome" placeholder="Seu sobrenome" onblur="validarForm(idCampo)">
+
+					<p class="p-large" for="fTelefone"> Telefone: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fTelefone" 
+					type="tel" name="fTelefone" placeholder="(00) 0 0000-0000" onblur="validarForm(idCampo)">
+					<br />
+
+					<p class="p-large" for=fEmail> E-mail: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fEmail" 
+					type="email" name="fEmail" placeholder="seuemail@email.com" onblur="validarForm(idCampo)">
+
+					<p class="p-large" for=fSenha> Senha: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fSenha" 
+					type="password" name="fSenha" placeholder="Sua senha" onblur="validarSenha()">
+
+					<p class="p-large" for="fSenhaConfirmar"> Confirmar Senha: </p>
+					<input class="form-control border-light bg-light fCadastro" id="fSenhaConfirmar"  
+					type="password" name="fSenhaConfirmar" placeholder="Confirmar senha" onblur="validarSenha()">
+					
+					<div class="cad-center">
+
+						<!-- <input class="bttn" id="btnCadastro" type="submit" name="enviar" value="Cadastrar"> -->					
+						<button class="bttn" id="btnCadastro" type="submit" name="btnCadastro" onclick="cadastrarForm()">
+							Cadastrar
+						</button>
+						
+					</div>
+					
+					<br />
+				</form>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
+			<div class="container">
+
+		    	<!-- Back to Lobby -->
+		    	<p class="float-right">
+		        	<a href="#"><img src="../img/backInitial.png" width="40" height="40"></a>
+		    	</p>
+		    	
+		    	<!-- Footer Author -->
+		    	<p class="center">
+					&copy; Copyright 2020 - WeCrab. Todos os direitos reservados. <br>
+					Por: 
+					<strong>
+						<a href="https://github.com/ArthurHenrique-Reis" target="_blank">
+							<font class="gradient-text">Arthur</font>
+						</a>
+					</strong> | 
+					<strong>
+						<a href="https://github.com/JulianeMaran32" target="_blank">
+							<font class="gradient-text">Juliane</font>
+						</a>
+					</strong> |
+					<strong> 
+						<a href="https://github.com/V-Perotto" target="_blank">
+							<font class="gradient-text">Vittorio</font>
+						</a>
+					</strong>
+		    	</p>
+
+			</div>
+		</footer>
+	</body>
+</html>
