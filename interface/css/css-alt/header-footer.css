@@ -1,7 +1,8 @@
 
 header {
     background: linear-gradient(90deg, #ffffff 0%, #ffdcd2 50%, #ffa688 100%);
-    position: fixed;
+    position: absolute;
+    margin-bottom:calc(5% + 20px);
     top: 0;
     right: 0;
     width: 100%;
@@ -13,7 +14,5 @@ footer {
 }
 
 .footer-fixed {
-    position:absolute;
-    bottom:0;
-    width:100%;
+    margin-top:calc(5% + 20px);
 }

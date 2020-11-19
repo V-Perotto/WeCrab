@@ -58,7 +58,7 @@ input {
     padding-right: 20px;
     padding-bottom: 20px;
     margin-left: 400px;
-    margin-right: 400px;
+    margin-right: 400px;   
 }
 
 .cad-center {
@@ -68,4 +68,26 @@ input {
 
 .img-center {
     justify-content: center;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+@media screen and (max-width: 990px) {
+    h2 {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .crab-center {
+        margin: auto;
+    }
 }
