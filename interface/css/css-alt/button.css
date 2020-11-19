@@ -184,3 +184,9 @@
 .bttn:active {
     top: 2px;
 }
+
+@media (max-width: 1064px) {
+    .bttn-logar {
+        margin-left: 11px;
+    }
+} 
