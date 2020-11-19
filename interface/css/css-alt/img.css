@@ -41,3 +41,10 @@
     padding-left: 200px;
     padding-right: 200px;
 }
+@media screen and (max-width: 1425px) {
+  
+    .crab-cad {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

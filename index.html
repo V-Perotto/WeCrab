@@ -29,6 +29,7 @@
 		<script src="./scripts/js/shopcart.js"></script>
 		<script src="./scripts/js/data.js"></script>
 		<script src="./scripts/js/jquery.js"></script>
+		<script src="./scripts/js/search.js"></script>
 	</head>
 
 	<body>
@@ -64,9 +65,9 @@
 				</nav> <!-- Fim Barra de Navegação -->
 
 				<!-- Search -->
-				<nav class="navbar mr-md-auto">
+				<nav class="grid-search navbar mr-md-auto">
 					<div>
-						<input class="form-control border-dark bg-light" placeholder="Busca" list="phones" value="" name="" id="search-input" onkeyup="procura()">
+						<input id="search-input" class="dls form-control border-dark bg-light" placeholder="Busca" list="phones" value="" name="" onkeyup="procura()">
 						<datalist id="phones">
 							<option value="Sunlight Crab">Sunlight Crab C$ 1700,00</option>
 							<option value="Midnight Crab">Midnight Crab C$ 1600,00</option>
@@ -74,9 +75,9 @@
 						</datalist>
 					</div>
 					<div>
-						<a id="btnLogin" href="./pages/produtos.html"> 
+						<button id="btnSearch" href="./pages/produtos.html" onclick="window.location.href = '../../pages/produtos.html'"> 
 							<img class="search" src="./img/search.png">
-						</a>
+						</button>
 					</div>
 				</nav>
 				
@@ -140,7 +141,7 @@
 				<div class="centralize card">
 					<h4 class="citacao sign"><b>Conheça nossos produtos!</b></h4>
 					<br />
-					<iframe width="900" height="600" src="https://www.youtube.com/embed/cSIvL0UbaKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+					<iframe class="ytrs" width="900" height="600" src="https://www.youtube.com/embed/cSIvL0UbaKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 				</div>
 			</div>
 		</div>
@@ -149,7 +150,7 @@
 </body>
 
 	<!-- Footer -->
-    	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer">
+    	<footer class="flex-column flex-md-row p-3 border-top shadow-sm text-center bg-footer footer-fixed">
         	<div class="container">
             	<p class="float-right">
 					<a href="#"><img src="./img/backInitial.png" width="40" height="40"></a>
