@@ -91,3 +91,37 @@ input::-webkit-calendar-picker-indicator {
         margin: auto;
     }
 }
+
+.tabela-cart {
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    grid-template-rows: auto auto auto auto;
+    text-align: left;
+    background: linear-gradient(90deg, #ffffff 0%, #ffdcd2 60%, #ffe2d1 100%);
+    font-family: 'Louis'; 
+    font-size: 18px;
+    border-radius: 5px;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    grid-row-gap: 15px;
+    padding-top: 5px;
+    padding-left: 5%;
+}
+
+.qtd {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.cart-space {
+    grid-column: 1 / 4;
+}
+
+.pad-cart {
+    padding-top: 12px;
+}
+
+#phone-pic {
+    width: 80px;
+}

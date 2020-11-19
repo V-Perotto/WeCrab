@@ -15,4 +15,6 @@ footer {
 
 .footer-fixed {
     margin-top:calc(5% + 20px);
+    position: absolute;
+    width: 100%;
 }
