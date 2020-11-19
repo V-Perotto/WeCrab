@@ -60,4 +60,23 @@ button {
     .dls {
         width: 68px;
     }
+
+    .ytrs {
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ytrs {
+        width: 500px;
+        height: 334px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ytrs {
+        width: 400px;
+        height: 200px;
+    }
 }
