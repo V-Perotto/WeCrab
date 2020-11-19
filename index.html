@@ -29,7 +29,6 @@
 		<script src="./scripts/js/shopcart.js"></script>
 		<script src="./scripts/js/data.js"></script>
 		<script src="./scripts/js/jquery.js"></script>
-		<script src="./scripts/js/jquery.js"></script>
 	</head>
 
 	<body>
@@ -84,9 +83,16 @@
 				<nav class="my-1 mr-md-2">
 					<div class="navbar-collapse">
 						<ol class="navbar-nav left">
-		              		<li class="nav-item"> <!--hidden-->
-		                		<a id="btnLogin" href="./pages/login.html" class="bttn-logar">Entrar</a>
-		              		</li>
+							<div id="sair" class="hidden">
+								<li class="nav-item"> <!--hidden-->
+									<a id="btnLogout"  href="" class="bttn-logout">Sair</a>
+								</li>
+							</div>
+							<div id="entrar" class="">
+								<li class="nav-item">
+									<a id="btnLogin" href="./pages/login.html" class="bttn-logar">Entrar</a>
+								</li>
+							</div>
 						</ol>
 					</div>
 				</nav>
@@ -102,7 +108,9 @@
 				<h4 class="citacao"><p class="sign">"Sinta-se como um verdadeiro caranguejista usando nossos produtos."</p></h4>
 				<p class="minus sign">~ Valerium, the Crab.</p>
 				<br />
-				<a id="btnCadastro" href="./pages/cadastro.html" class="bttn jump">Cadastre-se</a>
+				<div id="entrar" class="">
+					<a id="btnCadastro" href="./pages/cadastro.html" class="bttn jump">Cadastre-se</a>
+				</div>
 			</div>
 		</div>
 	</div>
