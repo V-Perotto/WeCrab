@@ -1,0 +1,9 @@
+.campo-obrigatorio {
+    border: solid 1px #FA5858;
+    color: #FA5858;
+}
+
+.campo-correto {
+    border: solid 1px #0faa43;
+    color: #0faa43;
+}

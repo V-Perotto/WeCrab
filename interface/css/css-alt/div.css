@@ -5,3 +5,7 @@
 .div-body-color {
     background: #ffffff;
 }
+
+.hidden {
+    display: none;
+}
