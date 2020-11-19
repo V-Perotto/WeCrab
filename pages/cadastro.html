@@ -22,18 +22,13 @@
 		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/header-footer.css">
 		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/styles.css">
 		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/img.css">
+		<link rel="stylesheet" type="text/css" href="../interface/css/cadastro.css">
 
 		<!-- JavaScript -->
-		<link rel="stylesheet" type="text/js" href="../interface/js/funcao.js">
-		<link rel="stylesheet" type="text/js" href="../interface/js/jquery.js">
-		
-		<!-- Font Awesome -->
-	    <script scr="https://use.fontawesome.com/releases/v5.13.0/css/all.css"></script>
-		
-		<!-- HTML5 Shiv CDNjs -->
-		<!--[if lt IE 9]>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-		<![endif]-->
+		<script type="text/javascript" src="../scripts/js/shopcart.js"></script>
+		<script type="text/javascript" src="../scripts/js/data.js"></script>
+		<script type="text/javascript" src="../scripts/js/valida.js"></script>
+		<script type="text/javascript" src="../scripts/js/jquery.js"></script>
 	</head>
 
 	<body>
@@ -88,19 +83,19 @@
 			<div class="align-content-center crab-card">
 
 				<p class="p-large"> Nome: </p>
-				<input class="form-control border-light bg-light" type="text" name="nome" placeholder="Seu nome">
+				<input id="txtNome" class="form-control bg-light" type="text" name="nome" placeholder="Seu nome">
 
 				<p class="p-large"> Sobrenome: </p>
-				<input class="form-control border-light bg-light"  type="text" name="sobrenome" placeholder="Seu sobrenome">
+				<input id="txtSobrenome" class="form-control bg-light"  type="text" name="sobrenome" placeholder="Seu sobrenome">
 
 				<p class="p-large"> E-mail: </p>
-				<input class="form-control border-light bg-light"  type="email" name="email" placeholder="seuemail@email.com">
+				<input id="txtEmail" class="form-control bg-light"  type="email" name="email" placeholder="seuemail@email.com">
 
 				<p class="p-large"> Senha: </p>
-				<input class="form-control border-light bg-light"  type="password" name="senha" placeholder="Sua senha">
+				<input id="txtSenha" class="form-control bg-light"  type="password" name="senha" placeholder="Sua senha">
 
 				<p class="p-large"> Telefone: </p>
-				<input class="form-control border-light bg-light"  type="text" name="telefone" placeholder="(00) 0 0000-0000">
+				<input id="txtTelefone" class="form-control bg-light"  type="text" name="telefone" placeholder="(00) 0 0000-0000">
 				<br />
 
 				<div class="cad-center">

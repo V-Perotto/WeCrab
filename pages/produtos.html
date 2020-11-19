@@ -24,8 +24,9 @@
 		<link rel="stylesheet" type="text/css" href="../interface/css/css-alt/img.css">
 
 		<!-- JavaScript -->
-		<link rel="stylesheet" type="text/js" href="../scripts/js/shopcart.js">
-		<link rel="stylesheet" type="text/js" href="../interface/js/jquery.js">
+		<script src="../scripts/js/shopcart.js"></script>
+		<script src="../scripts/js/data.js"></script>
+		<script src="../scripts/js/jquery.js"></script>
 	</head>
 
 		<header>
@@ -63,10 +64,17 @@
 				<nav class="my-1 mr-md-2">
 					<div class="navbar-collapse">
 						<ol class="navbar-nav left">
-		              		<li class="nav-item"> <!--hidden-->
-		                		<a href="../pages/login.html" class="bttn-logar">Entrar</a>
-								<a href="../pages/cadastro.html" class="bttn">Cadastro</a>
-		              		</li>
+							<div id="sair" class="hidden">
+								<li class="nav-item"> <!--hidden-->
+									<a id="btnLogout"  href="" class="bttn-logout">Sair</a>
+								</li>
+							</div>
+							<div id="entrar">
+								<li class="nav-item">
+									<a href="../pages/login.html" class="bttn-logar">Entrar</a>
+									<a href="../pages/cadastro.html" class="bttn">Cadastro</a>
+								</li>
+							</div>
 						</ol>
 					</div>
 				</nav>
