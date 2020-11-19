@@ -31,52 +31,5 @@ h4 {
 .search {
     padding-left: 5px;
     width: 30px;
-    height: 25px;
-}
-
-/* Botão pesquisa da datalist */
-button {
-    border: 1px solid;
-    border-left: none;
-    background-color: #F8F9FA;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    height: 38px;
-}
-
-.dls {
-    border-right: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.grid-search {
-    min-width: 143px;
-}
-
-/* Datalist responsivo */
-@media screen and (max-width: 1205px) {
-    .dls {
-        width: 68px;
-    }
-
-    .ytrs {
-        width: 800px;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .ytrs {
-        width: 500px;
-        height: 334px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .ytrs {
-        width: 400px;
-        height: 200px;
-    }
+    height: 30px;
 }
