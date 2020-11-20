@@ -101,9 +101,7 @@ input::-webkit-calendar-picker-indicator {
     font-family: 'Louis'; 
     font-size: 18px;
     border-radius: 5px;
-    border-top: 1px solid #dee2e6;
-    border-left: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
+    border: 1px solid #dee2e6;
     grid-row-gap: 15px;
     padding-top: 5px;
     padding-left: 5%;
@@ -124,4 +122,11 @@ input::-webkit-calendar-picker-indicator {
 
 #phone-pic {
     width: 80px;
+}
+
+.gridcart {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
 }
