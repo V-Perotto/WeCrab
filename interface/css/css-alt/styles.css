@@ -110,6 +110,7 @@ input::-webkit-calendar-picker-indicator {
 .qtd {
     width: 50%;
     padding-left: 15px;
+    min-width: 50px;
 }
 
 .cart-space {
@@ -118,6 +119,7 @@ input::-webkit-calendar-picker-indicator {
 
 .pad-cart {
     padding-top: 12px;
+    padding-left: 15px;
 }
 
 #phone-pic {
@@ -129,4 +131,22 @@ input::-webkit-calendar-picker-indicator {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     grid-row-gap: 10px;
+}
+
+.phone-cart {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .tabela-cart {
+        grid-template-columns: 60% 15% 15%;
+    }
+
+    .quantity {
+        margin-left: -30%;
+    }
 }
